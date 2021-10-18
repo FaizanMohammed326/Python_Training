@@ -1,4 +1,4 @@
-#WAP to reverse a number using for loop
+#WAP to reverse a number using  loop
 
 
 num = int(input('enter the number to be reversed:'))
@@ -8,3 +8,5 @@ while(num>0):
     num = num // 10
 print('reversed number is {}'.format(rev_num))
 
+
+rev = 0

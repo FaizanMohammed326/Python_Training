@@ -14,11 +14,15 @@ else:
     print('{} is not an armstrong number'.format(int(num)))
 '''
 
-temp = num = int(input())
+temp1 = temp2 = num = int(input('enter the number:'))
+order=0
+while temp1>0:
+    order+=1
+    temp1//=10
 sum = 0
-while(temp>0):
-    sum += (temp%10)**3
-    temp = temp // 10
+while temp2>0:
+    sum += (temp2%10)**order
+    temp2 = temp2 // 10
 if(num==sum):
     print('{} is an armstrong number'.format(num))
 else:

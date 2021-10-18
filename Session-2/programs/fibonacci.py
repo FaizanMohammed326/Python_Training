@@ -13,5 +13,5 @@ if n<=0:
 elif n==1:
     print([0])
 else:
-    fib(n);
-    print(fib_arr);
+    fib(n)
+    print(fib_arr)

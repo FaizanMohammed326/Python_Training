@@ -6,7 +6,7 @@ c=int(input())'''
 
 x,y,z = (int(x) for x in input('enter three numbers \n').split(','))
 
-if(x<y & x<z):
+if(x<y and x<z):
     print('{} is the smallest number'.format(x))
 elif(y<z):
     print('{} is the smallest number'.format(y))
