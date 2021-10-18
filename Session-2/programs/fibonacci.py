@@ -7,5 +7,11 @@ def fib(n):
         return temp;
     else:
         return fib_arr[n-1];
-fib(n);
-print(fib_arr);
+
+if n<=0:
+    print('invalid input')
+elif n==1:
+    print([0])
+else:
+    fib(n);
+    print(fib_arr);
