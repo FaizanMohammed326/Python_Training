@@ -9,7 +9,7 @@ def fact(n):
 
 
 num = int(input('enter the number : '))
-if num<0:
+if num < 0:
     print('invalid number')
 else:
     res = fact(num)

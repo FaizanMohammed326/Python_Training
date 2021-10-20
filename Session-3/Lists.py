@@ -20,7 +20,7 @@ print(test_list, '\n', l1, '\n', l2, '\n', l3, '\n', l4, '\n')
 
 """
 3.concatenation 
-there are 6 ways to concatinate a list in python
+there are 6 ways to concatenate a list in python
 a. using append()
 b. using '+' operator
 d. using extend()
@@ -80,12 +80,12 @@ print(sorted(l2, reverse=True))
 print(l2.sort())
 
 """
-pop() is used to remove an element from end of  a list. index is optional to remoe a specific index
+pop() is used to remove an element from end of  a list. index is optional to remove a specific index
 del() : Element to be deleted is mentioned using list name and index.
 remove(): Element to be deleted is mentioned using list name and element
 """
 
-l3 = [1,2,4,46,6,3,23,41]
+l3 = [1, 2, 4, 46, 6, 3, 23, 41]
 l3.pop(3)
 print(l3)
 
@@ -93,20 +93,20 @@ del l3[5]
 print(l3)
 
 l3.remove(6)
-print(l3,'\n')
+print(l3, '\n')
 
 """
 list comprehension 
 list comprehension offers a shorter syntax when you want to create a new list based on the values
  of an existing list.
 Syntax :
-newlist = [expression for item in iterable if condition == True]
+new_list = [expression for item in iterable if condition == True]
 """
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-newlist = [x for x in fruits if "a" in x]
+new_list = [x for x in fruits if "a" in x]
 
-print(newlist)
+print(new_list)
 
 """
 indexing and slicing
@@ -116,7 +116,7 @@ slicing Syntax:
     Lst[ Initial : End : IndexJump ]
 """
 
-l3 = [1,2,4,46,6,3,23,41]
-print(l3[3],l3[-5])
+l3 = [1, 2, 4, 46, 6, 3, 23, 41]
+print(l3[3], l3[-5])
 
 print(l3[2:4:1])

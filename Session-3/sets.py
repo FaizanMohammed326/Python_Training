@@ -3,12 +3,12 @@ A Set is an unordered collection data type that is iterable, mutable and has no 
 1.Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence
  inside curly braces, separated by ‘comma’.
 """
-li = [1,2,3,4]
+li = [1, 2, 3, 4]
 set1 = set(li)
-print(set1,type(set1))
+print(set1, type(set1))
 
 set2 = {2, 3, 4, 5}
-print(set2,type(set2))
+print(set2, type(set2))
 print('\n')
 
 """
@@ -30,17 +30,17 @@ print('\n')
 3.Concatenation:
     for concatenation we use '|' operator , update() function and union() function
 """
-seta = {1,2,3}
-setb = {4,5,6}
-setc = {7,8}
-setd = {9,10}
+set_a = {1, 2, 3}
+set_b = {4, 5, 6}
+set_c = {7, 8}
+set_d = {9, 10}
 
-print(seta)
-seta |= setb
-print(seta)
-seta.update(setc)
-print(seta)
-print(seta.union(setd))
+print(set_a)
+set_a |= set_b
+print(set_a)
+set_a.update(set_c)
+print(set_a)
+print(set_a.union(set_d))
 print('\n')
 
 """
@@ -60,13 +60,13 @@ remove() - to remove a specified element from a set
 
 
 """
-set1 = {1,2,3,4,5}
-set2 = {3,4,5,6,7}
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
 set3 = set1.intersection(set2)
-print('intersection : ',set3)
+print('intersection : ', set3)
 
 set4 = set1-set2
-print('difference : ',set4)
+print('difference : ', set4)
 
 fruits = {"apple", "banana", "cherry"}
 x = fruits.pop()
