@@ -2,6 +2,8 @@
 # from collections import Counter
 
 lst = list(input('enter the list : ').split(','))
+
+
 def dup(li):
     d = {}
     for i in li:
