@@ -22,7 +22,7 @@ we can also pass the third parameter which is the initializer.
 below is the program to find he number greater than given number if present in the list
 """
 
-lst = [10, 30, 40, 80, 20]
+lst = [10, 30, 40, 20, 20]
 num = 50
 res = reduce(lambda a, b: a if a > b else b, lst, num)
 print(res)
