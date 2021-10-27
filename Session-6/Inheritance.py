@@ -133,15 +133,13 @@ class Mother(Family_Member):
 
 
 # Son class inherited from Father and Mother classes
-class Son(Father, Mother):
+class Son(Father):
     def show_parent(self):
         print("Father :", self.father_name)
-        print("Mother :", self.mother_name)
 
 
 s1 = Son()
 s1.father_name = "Mark"
-s1.mother_name = "Sonia"
 s1.show_family()
 s1.show_parent()
 

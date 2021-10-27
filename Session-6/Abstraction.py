@@ -62,7 +62,7 @@ print('\n')
 Implementation Through Subclassing : 
     By subclassing directly from the base, we can avoid the need to register the class explicitly.
 But A side-effect of using direct subclassing is, it is possible to find all the implementations of your plugin
-by asking the base class for the list of known classes derived from it. 
+by asking the base class for the list of known classes derived from it.
 """
 
 
