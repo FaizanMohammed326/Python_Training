@@ -15,7 +15,7 @@ Where as Deep copy stores the copy of the original object and recursively copies
 
 from copy import copy, deepcopy
 
-lst = [[1, 2, 3], (2, 3, 4), 'random', [7, 8, [9, 10]]]
+lst = [[1, 2, 3], (2, 3, 4), 6, [7, 8, [9, 10]]]
 lst1 = copy(lst)
 lst2 = deepcopy(lst)
 

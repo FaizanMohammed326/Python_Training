@@ -4,12 +4,12 @@ The raise statement allows the programmer to force a specific exception to occur
 This must be either an exception instance or an exception class
 """
 
-a, b = int(input('enter 1st number : ')), int(input('enter 2nd number : '))
+"""a, b = int(input('enter 1st number : ')), int(input('enter 2nd number : '))
 if b == 0:
     raise ZeroDivisionError
 else:
     print(a/b)
-print('\n')
+print('\n')"""
 
 """
 now if put this in a try-except block
