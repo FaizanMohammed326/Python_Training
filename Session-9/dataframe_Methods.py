@@ -46,7 +46,3 @@ tail(n):
 print(df.head(20).to_string())
 print('\n')
 print(df.tail(20).to_string())
-
-"""
-add()
-"""
